@@ -9,3 +9,34 @@ box-sizing: border-box;
 body {
   margin: 0;
 }
+.container {
+width: 100%;
+}
+.row {
+
+}
+.column {
+  background: green;
+  color: yellow;
+  border: 0.5rem solid red;
+  padding: 1rem;
+  width: 33%;
+  float: left;
+  overflow: auto;
+}
+.column__image {
+  width: 12rem;
+  height: 12rem;
+
+}
+.avatar {
+  height: 3rem;
+  width: 3rem;
+}
+.name, .number {
+  display: inline-block;
+}
+.number {
+align-self: baseline;
+
+}
