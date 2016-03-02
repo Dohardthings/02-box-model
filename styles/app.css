@@ -28,22 +28,26 @@ border: 1px lightgrey solid;
   width: 100%;
   margin: auto;
   border: 1px lightgrey solid;
+
 }
 .avatar {
-
-  max-width: 2rem;
+margin: auto;
+  width: 2rem
 }
 
 .number {
 float: left;
+overflow-x: auto;
 }
 .name {
   float: right;
+  overflow: auto;
+
 }
 .bottom-row {
   display: inline-block;
   border-bottom: 1px lightgrey solid;
-  overflow: auto;
+
   font-size: 12px;
   line-height: 1rem;
   vertical-align: middle;
