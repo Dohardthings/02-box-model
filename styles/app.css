@@ -51,9 +51,10 @@ line-height: 3rem;
   font-size: 12px;
   line-height: 1rem;
   vertical-align: middle;
-  margin-bottom: .3rem;
+  margin: auto;
 
 }
 p {
   vertical-align: middle;
+  margin: auto;
 }
