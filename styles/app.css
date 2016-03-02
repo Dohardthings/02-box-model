@@ -11,6 +11,7 @@ body {
 }
 .container {
 width: 100%;
+border: 1px lightgrey solid;
 }
 .row {
 
@@ -21,22 +22,32 @@ width: 100%;
   border: 0.5rem solid red;
   padding: 1rem;
   width: 33%;
-  float: left;
+  display: inline-block;
+
   overflow: auto;
 }
 .column__image {
-  width: 12rem;
-  height: 12rem;
+  width: 100%;
+  margin: auto;
+  border: 1px lightgrey solid;
 
 }
 .avatar {
-  height: 3rem;
-  width: 3rem;
+  max-height: auto;
+  max-width: 2rem;
 }
-.name, .number {
-  display: inline-block;
-}
+
 .number {
-align-self: baseline;
+float: left;
+}
+.name {
+  float: right;
+}
+.bottom-row {
+  display: inline-block;
+  border-bottom: 1px lightgrey solid;
+  overflow: auto;
+  font-size: 12px
+
 
 }
