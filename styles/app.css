@@ -47,8 +47,13 @@ line-height: 3rem;
 .bottom-row {
   display: inline-block;
   border-bottom: 1px lightgrey solid;
-width: 100%;
+  width: 100%;
   font-size: 12px;
   line-height: 1rem;
+  vertical-align: middle;
+  margin-bottom: .3rem;
+
+}
+p {
   vertical-align: middle;
 }
