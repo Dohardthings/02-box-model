@@ -17,23 +17,20 @@ border: 1px lightgrey solid;
 
 }
 .column {
-  background: green;
-  color: yellow;
-  border: 0.5rem solid red;
+  background: white;
+  color: black;
   padding: 1rem;
   width: 33%;
   display: inline-block;
-
   overflow: auto;
 }
 .column__image {
   width: 100%;
   margin: auto;
   border: 1px lightgrey solid;
-
 }
 .avatar {
-  max-height: auto;
+
   max-width: 2rem;
 }
 
@@ -47,7 +44,7 @@ float: left;
   display: inline-block;
   border-bottom: 1px lightgrey solid;
   overflow: auto;
-  font-size: 12px
-
-
+  font-size: 12px;
+  line-height: 1rem;
+  vertical-align: middle;
 }
