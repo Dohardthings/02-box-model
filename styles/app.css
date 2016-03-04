@@ -21,8 +21,10 @@ border: 1px lightgrey solid;
   color: black;
   padding: .1rem;
   width: 33%;
-  display: inline-block;
+  display: block;
   overflow: auto;
+  float: left;
+  padding: .5rem;
 }
 .column__image {
   width: 100%;
@@ -53,7 +55,8 @@ vertical-align: middle;
   font-size: 12px;
   line-height: 1rem;
   vertical-align: middle;
-  margin: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 
 }
 p {
